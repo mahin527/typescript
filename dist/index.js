@@ -3,5 +3,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function greet(person) {
     return `Hello ${person}, welcome to our website!`;
 }
-console.log(greet('Mahin'));
+const username = 'Mahin';
+console.log(greet(username));
 //# sourceMappingURL=index.js.map
